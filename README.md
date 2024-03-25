@@ -47,7 +47,7 @@ For downstream tasks, please follow [MMDetection](https://github.com/open-mmlab/
 
 After setting up, the datasets file structure should be as the following:
 ```
-plain_mamba
+PlainMamba
 |-- ...
 |-- data
 |   |__ imagenet
@@ -179,10 +179,5 @@ zsh tools/dist_test.sh plain_mamba_seg_configs/l1_upernet.py work_dirs/l1_uperne
 
 ## Citation
 ```
-@InProceedings{yang2023gpvit,
-      title={{GPViT: A High Resolution Non-Hierarchical Vision Transformer with Group Propagation}}, 
-      author={Chenhongyi Yang and Jiarui Xu and Shalini De Mello and Elliot J. Crowley and Xiaolong Wang},
-      journal={ICLR}
-      year={2023},
-}
+TBD
 ```

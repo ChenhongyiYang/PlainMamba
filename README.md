@@ -98,7 +98,7 @@ zsh tool/dist_train.sh plain_mamba_configs/plain_mamba_l1_in1k_300e.py 8
 #### Testing PlainMamba
 ```shell
 # Example: Testing PlainMamba-L1 model
-zsh tool/dist_test.sh plain_mamba_configs/plain_mamba_l1_in1k_300e.py work_dirs/simba_l1_in1k_300e/epoch_300.pth 8 --metrics accuracy
+zsh tool/dist_test.sh plain_mamba_configs/plain_mamba_l1_in1k_300e.py work_dirs/plain_mamba_l1_in1k_300e/epoch_300.pth 8 --metrics accuracy
 ```
 ### COCO Object Detection and Instance Segmentation
 

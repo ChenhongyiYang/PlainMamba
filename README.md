@@ -1,5 +1,4 @@
-# PlainMamba: Improving Non-hierarchical Mamba
-in Visual Recognition
+# PlainMamba: Improving Non-hierarchical Mamba in Visual Recognition
 <p align="center">
 <img src="resources/plainmamba_teaser.png"/>
 </p>

@@ -7,7 +7,7 @@ This repository contains the official PyTorch implementation of our paper:
 
 [PlainMamba: Improving Non-hierarchical Mamba
 in Visual Recognition, *Chenhongyi Yang**, *Zehui Chen**, *Miguel Espinosa**, *Linus Ericsson*, *Zhenyu
-Wang*, *Jiaming Liu*, *Wenwei Zhang*, *Kai Chen*, *Elliot J. Crowley*, arXiv preprint arXiv:0000.00000 (2024)](www.google.com)
+Wang*, *Jiaming Liu*,  *Elliot J. Crowley*, arXiv preprint arXiv:0000.00000 (2024)](www.google.com)
 
 ## Usage
 
@@ -153,11 +153,11 @@ zsh tools/dist_test.sh plain_mamba_seg_configs/l1_upernet.py work_dirs/l1_uperne
 | PlainMamba-L3 |    50.5     |   82.3    |   95.9    | [Link](https://github.com/ChenhongyiYang/PlainMamba/blob/main/plain_mamba_configs/plain_mamba_l3_in1k_300e.py)  | [Link](https://huggingface.co/ChenhongyiYang/PlainMamba/resolve/main/l3.pth) |
 
 ### COCO Mask R-CNN 1x Schedule
-|      Model       | #Params (M) | AP Box | AP Mask |                                                                  Config                                                                  |                                               Model                                                |
-|:----------------:|:-----------:|:------:|:-------:|:----------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|
+|         Model         | #Params (M) | AP Box | AP Mask |                                                                  Config                                                                  |                                               Model                                                |
+|:---------------------:|:-----------:|:------:|:-------:|:----------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|
 | PlainMamba-Adapter-L1 |     31      |  44.1  |  39.1   | [Link](https://github.com/ChenhongyiYang/PlainMamba/blob/main/downstream/mmdetection/plain_mamba_det_configs/maskrcnn/l1_maskrcnn_1x.py) | [Link](https://huggingface.co/ChenhongyiYang/PlainMamba/resolve/main/detection/maskrcnn/l1_1x.pth) |
 | PlainMamba-Adapter-L2 |     53      |  46.0  |  40.6   | [Link](https://github.com/ChenhongyiYang/PlainMamba/blob/main/downstream/mmdetection/plain_mamba_det_configs/maskrcnn/l2_maskrcnn_1x.py) | [Link](https://huggingface.co/ChenhongyiYang/PlainMamba/resolve/main/detection/maskrcnn/l2_1x.pth) |
-| PlainMamba-Adapter-L2 |     79      |  N/A   |   N/A   | [Link](https://github.com/ChenhongyiYang/PlainMamba/blob/main/downstream/mmdetection/plain_mamba_det_configs/maskrcnn/l3_maskrcnn_1x.py) | [Link](https://huggingface.co/ChenhongyiYang/PlainMamba/resolve/main/detection/maskrcnn/l3_1x.pth) |
+| PlainMamba-Adapter-L3 |     79      |  46.8  |  41.2   | [Link](https://github.com/ChenhongyiYang/PlainMamba/blob/main/downstream/mmdetection/plain_mamba_det_configs/maskrcnn/l3_maskrcnn_1x.py) | [Link](https://huggingface.co/ChenhongyiYang/PlainMamba/resolve/main/detection/maskrcnn/l3_1x.pth) |
 
 
 ### COCO RetinaNet 1x Schedule

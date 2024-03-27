@@ -7,7 +7,7 @@ This repository contains the official PyTorch implementation of our paper:
 
 [PlainMamba: Improving Non-hierarchical Mamba
 in Visual Recognition, *Chenhongyi Yang**, *Zehui Chen**, *Miguel Espinosa**, *Linus Ericsson*, *Zhenyu
-Wang*, *Jiaming Liu*,  *Elliot J. Crowley*, arXiv preprint arXiv:0000.00000 (2024)](www.google.com)
+Wang*, *Jiaming Liu*,  *Elliot J. Crowley*, arXiv preprint arXiv:2403.17695 (2024)](https://arxiv.org/pdf/2403.17695.pdf)
 
 ## Usage
 
@@ -179,5 +179,12 @@ zsh tools/dist_test.sh plain_mamba_seg_configs/l1_upernet.py work_dirs/l1_uperne
 
 ## Citation
 ```
-TBD
+@misc{yang2024plainmamba,
+      title={PlainMamba: Improving Non-Hierarchical Mamba in Visual Recognition}, 
+      author={Chenhongyi Yang and Zehui Chen and Miguel Espinosa and Linus Ericsson and Zhenyu Wang and Jiaming Liu and Elliot J. Crowley},
+      year={2024},
+      eprint={2403.17695},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```

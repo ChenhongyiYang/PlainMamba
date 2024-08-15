@@ -7,7 +7,7 @@ This repository contains the official PyTorch implementation of our paper:
 
 [PlainMamba: Improving Non-hierarchical Mamba
 in Visual Recognition, *Chenhongyi Yang**, *Zehui Chen**, *Miguel Espinosa**, *Linus Ericsson*, *Zhenyu
-Wang*, *Jiaming Liu*,  *Elliot J. Crowley*, arXiv preprint arXiv:2403.17695 (2024)](https://arxiv.org/pdf/2403.17695.pdf)
+Wang*, *Jiaming Liu*,  *Elliot J. Crowley*, BMVC 2024](https://arxiv.org/pdf/2403.17695.pdf)
 
 ## Usage
 

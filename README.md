@@ -179,12 +179,11 @@ zsh tools/dist_test.sh plain_mamba_seg_configs/l1_upernet.py work_dirs/l1_uperne
 
 ## Citation
 ```
-@misc{yang2024plainmamba,
-      title={PlainMamba: Improving Non-Hierarchical Mamba in Visual Recognition}, 
-      author={Chenhongyi Yang and Zehui Chen and Miguel Espinosa and Linus Ericsson and Zhenyu Wang and Jiaming Liu and Elliot J. Crowley},
-      year={2024},
-      eprint={2403.17695},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{Yang_2024_BMVC,
+author    = {Chenhongyi Yang and Zehui Chen and Miguel Espinosa and Linus Ericsson and Zhenyu Wang and Jiaming Liu and Elliot J. Crowley},
+title     = {PlainMamba: Improving Non-Hierarchical Mamba in Visual Recognition},
+booktitle = {35th British Machine Vision Conference 2024, {BMVC} 2024, Glasgow, UK, November 25-28, 2024},
+publisher = {BMVA},
+year      = {2024}
 }
 ```
